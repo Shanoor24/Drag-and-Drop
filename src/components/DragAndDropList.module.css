@@ -1,0 +1,27 @@
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.item {
+  padding: 15px;
+  margin: 5px 0;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  cursor: grab;
+  user-select: none;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.item:nth-child(odd) {
+  background-color: #f9f9f9;
+}
